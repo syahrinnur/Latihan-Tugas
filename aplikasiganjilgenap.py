@@ -4,10 +4,7 @@ print('Masukkan nilai awal dan nilai akhir')
 nilai_awal = int(input(' nilai awal: '))
 nilai_akhir = int(input(' nilai akhir: '))
 
-print("""Tampilkan bilangan
- 1. Ganjil
- 2. Genap""")
-
+print('Tampilkan bilangan \n1. Ganjil \n2. Genap')
 pilihan = int(input('Pilihan: '))
 
 if pilihan not in [1, 2]:
